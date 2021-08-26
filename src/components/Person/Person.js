@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./style.css";
 
 const Person = (props) => {
   const { name, country } = props;
   return (
-    <div>
+    <div className="container">
       <h2> Hello Everyone! I am {name}! </h2>
       <h3> I am from {country} </h3>
     </div>
