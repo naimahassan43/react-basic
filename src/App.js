@@ -60,11 +60,8 @@ import Person from "./components/Person/Person";
 const App = () => {
   return (
     <>
-      <Person />
-      <Person />
-      <Person />
-      <Person />
-      <Person />
+      <Person name="John" country="Germany" />
+      <Person name="Smith" country="Belarush" />
     </>
   );
 };
