@@ -1,12 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
+/****** Class Based Component ********/
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World from React!</h1>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <p> Hello!!!!!!!!</p>
+      </div>
+    );
+  }
 }
 
 export default App;
