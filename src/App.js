@@ -36,14 +36,18 @@ const App = () => {
   const num2 = -99;
   return (
     <React.Fragment>
-      <div>
+      <div className="cont">
         <h1> Hello From {country}!!!!</h1>
         <h2> {num1 - num2}</h2>
         <h3>{num2 > 0 ? "Positive" : "Negative"}</h3>
       </div>
-      <div>
-        <h1> Hello From {country}!!!!</h1>
-      </div>
+      <br />
+      <hr />
+      <form>
+        <label htmlFor="country">Country : </label>
+
+        <input type="text" name="country" />
+      </form>
     </React.Fragment>
   );
 };
