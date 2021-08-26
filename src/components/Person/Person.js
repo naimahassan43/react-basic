@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Person = (props) => {
   const { name, country } = props;
@@ -10,4 +11,8 @@ const Person = (props) => {
   );
 };
 
+Person.propTypes = {
+  name: PropTypes.string.isRequired,
+  country: PropTypes.string.isRequired,
+};
 export default Person;
